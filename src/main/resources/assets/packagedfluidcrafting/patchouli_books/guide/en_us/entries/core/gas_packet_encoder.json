@@ -1,0 +1,30 @@
+{
+	"name": "Gas Packet Encoder",
+	"category": "packagedauto:core",
+	"icon": "packagedfluidcrafting:gas_packet_encoder",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(item)Gas Packet Encoder/$ creates $(item)Gas Packets/$ filled with gases.$(p)This machine requires power."
+		},
+		{
+			"type": "spotlight",
+			"item": "packagedfluidcrafting:gas_packet_encoder",
+			"link_recipe": true,
+			"title": "Usage",
+			"text": "To use the $(item)Gas Packet Encoder/$, place next to a gas container, and place a template gas container or a gas drop inside.$(p)You can then specify the amount of gas the created $(item)Gas Packet/$ should contain."
+		},
+		{
+			"type": "text",
+			"title": "Usage (cont.)",
+			"text": "Finally, apply a redstone signal to the machine to create the packet.$(p)The created packet will be ejected into adjacent inventories."
+		},
+		{
+			"type": "crafting",
+			"recipe": "packagedfluidcrafting:gas_packet_encoder",
+			"title": "Crafting"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 13001
+}

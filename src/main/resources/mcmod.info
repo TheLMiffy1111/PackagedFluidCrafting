@@ -1,0 +1,18 @@
+[
+	{
+		"modid": "packagedfluidcrafting",
+		"version": "0@VERSION@",
+		"name": "PackagedFluidCrafting",
+		"description": "A PackagedAuto addon that improves AE2 Fluid Crafting support.",
+		"logoFile": "packagedfluidcrafting.logo.png",
+		"authorList": ["TheLMiffy1111"],
+		"url": "https://www.curseforge.com/minecraft/mc-mods/packagedfluidcrafting"
+	},
+	{
+		"modid": "ae2fcsort",
+		"version": "0",
+		"name": "AE2FCSort",
+		"description": "A dummy mod to ensure AE2 Fluid Crafting loads after AE2.",
+		"parent": "packagedfluidcrafting"
+	}
+]

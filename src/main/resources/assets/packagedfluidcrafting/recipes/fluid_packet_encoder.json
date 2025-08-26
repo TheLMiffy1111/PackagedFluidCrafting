@@ -1,0 +1,31 @@
+{
+	"type": "forge:ore_shaped",
+	"result": {
+		"item": "packagedfluidcrafting:fluid_packet_encoder",
+		"count": 1
+	},
+	"pattern": [
+		"ICI",
+		"UBU",
+		"IPI"
+	],
+	"key": {
+		"C": {
+			"item": "packagedauto:package_component"
+		},
+		"B": {
+			"item": "minecraft:bucket"
+		},
+		"P": {
+			"item": "minecraft:piston"
+		},
+		"I": {
+			"type": "forge:ore_dict",
+			"ore": "ingotIron"
+		},
+		"U": {
+			"type": "forge:ore_dict",
+			"ore": "blockGlass"
+		}
+	}
+}

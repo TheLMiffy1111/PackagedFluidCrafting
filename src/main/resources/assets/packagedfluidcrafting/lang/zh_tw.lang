@@ -1,0 +1,9 @@
+itemGroup.packagedfluidcrafting=封包流體合成
+
+tile.packagedfluidcrafting.fluid_packet_encoder.name=流體封包編碼器
+tile.packagedfluidcrafting.fluid_packet_encoder.redstone=以紅石訊號啟動
+tile.packagedfluidcrafting.gas_packet_encoder.name=氣體封包編碼器
+tile.packagedfluidcrafting.gas_packet_encoder.redstone=以紅石訊號啟動
+
+gui.packagedfluidcrafting.fluid_amount_specifying=流體量以mB為單位
+gui.packagedfluidcrafting.gas_amount_specifying=氣體量以mB為單位

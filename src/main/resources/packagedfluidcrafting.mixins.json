@@ -1,0 +1,32 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "thelm.packagedfluidcrafting.mixin",
+	"refmap": "packagedfluidcrafting.refmap.json",
+	"target": "@env(DEFAULT)",
+	"compatibilityLevel": "JAVA_8",
+	"plugin": "thelm.packagedfluidcrafting.mixin.PackagedFluidCraftingMixinPlugin",
+	"mixins": [
+		"PackagedFluidCraftingCanceller",
+		"ItemRecipeHolderMixin",
+		"ItemPackageMixin",
+		"TileUnpackagerMixin",
+		"TileDistributorMixin",
+		"TilePackagingProviderMixin",
+		"PackageCraftingPatternHelperMixin",
+		"RecipeCraftingPatternHelperMixin",
+		"DirectCraftingPatternHelperMixin"
+	],
+	"client": [
+		"PackagedFluidCraftingClientCanceller",
+		"GuiContainerTileBaseMixin",
+		"RecipeTypeProcessingMixin",
+		"RecipeTypeProcessingPositionedMixin",
+		"EncoderGhostIngredientHandlerMixin",
+		"BookTextParserMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1,
+		"maxShiftBy": 2
+	}
+}

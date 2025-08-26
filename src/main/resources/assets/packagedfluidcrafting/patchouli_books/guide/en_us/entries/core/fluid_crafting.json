@@ -1,0 +1,19 @@
+{
+	"name": "Fluid Crafting",
+	"category": "packagedauto:core",
+	"icon": "ae2fc:fluid_drop",
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(#822)PackagedFluidCrafting/$ adds fluid crafting support to $(#822)PackagedAuto/$ by integrating with $(#822)AE2 Fluid Crafting/$."
+		},
+		{
+			"type": "spotlight",
+			"item": "ae2fc:fluid_packet{DisplayOnly:true}",
+			"title": "Packet Encoding",
+			"text": "If needed, $(item)Packets/$ can be created in corresponding special machines, such as in $(l:packagedfluidcrafting:core/fluid_packet_encoder)Fluid Packet Encoder/$ for $(item)Fluid Packets/$."
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 3
+}

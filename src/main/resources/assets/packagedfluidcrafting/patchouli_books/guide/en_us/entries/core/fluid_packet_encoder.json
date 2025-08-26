@@ -1,0 +1,30 @@
+{
+	"name": "Fluid Packet Encoder",
+	"category": "packagedauto:core",
+	"icon": "packagedfluidcrafting:fluid_packet_encoder",
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(item)Fluid Packet Encoder/$ creates $(item)Fluid Packets/$ filled with fluids.$(p)This machine requires power."
+		},
+		{
+			"type": "spotlight",
+			"item": "packagedfluidcrafting:fluid_packet_encoder",
+			"link_recipe": true,
+			"title": "Usage",
+			"text": "To use the $(item)Fluid Packet Encoder/$, place next to a fluid container, and place a template fluid container or a fluid drop inside.$(p)You can then specify the amount of fluid the created $(item)Fluid Packet/$ should contain."
+		},
+		{
+			"type": "text",
+			"title": "Usage (cont.)",
+			"text": "Finally, apply a redstone signal to the machine to create the packet.$(p)The created packet will be ejected into adjacent inventories."
+		},
+		{
+			"type": "crafting",
+			"recipe": "packagedfluidcrafting:fluid_packet_encoder",
+			"title": "Crafting"
+		}
+	],
+	"read_by_default": true,
+	"sortnum": 11
+}
