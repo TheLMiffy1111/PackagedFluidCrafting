@@ -17,6 +17,8 @@ import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.FluidUtil;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.fluids.capability.IFluidHandler;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemHandlerHelper;
@@ -302,6 +304,7 @@ public class TileFluidPacketEncoder extends TileBase implements ITickable, ISett
 		return scale * (energyReq-remainingProgress) / energyReq;
 	}
 
+	@SideOnly(Side.CLIENT)
 	@Override
 	public GuiContainer getClientGuiElement(EntityPlayer player, Object... args) {
 		return new GuiFluidPacketEncoder(new ContainerFluidPacketEncoder(player.inventory, this));

@@ -83,7 +83,7 @@ def specVersion = "1"
 def vendor = "thelm"
 
 group = "thelm.packagedfluidcrafting"
-version = "1.0.0.0"
+version = "1.0.0.1"
 
 archivesBaseName = "${modName}-${mcVersion}"
 

@@ -1,1 +1,1 @@
-Initial release  
+Fix missing SideOnly annotations on getClientGuiElement  

@@ -19,6 +19,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraftforge.energy.CapabilityEnergy;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemHandlerHelper;
@@ -318,6 +320,7 @@ public class TileGasPacketEncoder extends TileBase implements ITickable, ISettin
 		return scale * (energyReq-remainingProgress) / energyReq;
 	}
 
+	@SideOnly(Side.CLIENT)
 	@Override
 	public GuiContainer getClientGuiElement(EntityPlayer player, Object... args) {
 		return new GuiGasPacketEncoder(new ContainerGasPacketEncoder(player.inventory, this));
