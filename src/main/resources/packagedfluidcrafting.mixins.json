@@ -8,8 +8,6 @@
 	"plugin": "thelm.packagedfluidcrafting.mixin.PackagedFluidCraftingMixinPlugin",
 	"mixins": [
 		"PackagedFluidCraftingCanceller",
-		"ItemRecipeHolderMixin",
-		"ItemPackageMixin",
 		"TileUnpackagerMixin",
 		"TileDistributorMixin",
 		"TilePackagingProviderMixin",
@@ -19,6 +17,8 @@
 	],
 	"client": [
 		"PackagedFluidCraftingClientCanceller",
+		"ItemRecipeHolderMixin",
+		"ItemPackageMixin",
 		"GuiContainerTileBaseMixin",
 		"RecipeTypeProcessingMixin",
 		"RecipeTypeProcessingPositionedMixin",

@@ -1,1 +1,1 @@
-Fix missing SideOnly annotations on getClientGuiElement  
+Move tooltip mixins to client  
