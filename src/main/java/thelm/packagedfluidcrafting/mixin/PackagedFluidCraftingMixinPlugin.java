@@ -21,7 +21,7 @@ public class PackagedFluidCraftingMixinPlugin implements IMixinConfigPlugin {
 
 	@Override
 	public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-		switch(targetClassName) {
+		switch(mixinClassName) {
 		case "TilePackagingProviderMixin":
 		case "DirectCraftingPatternHelperMixin":
 			return Loader.isModLoaded("packagingprovider");

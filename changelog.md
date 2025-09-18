@@ -1,1 +1,1 @@
-Move tooltip mixins to client  
+Fix mixin plugin not filtering on mixin name  
