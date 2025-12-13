@@ -130,8 +130,8 @@ dependencies {
 	// Dependencies
 	implementation("zone.rong:mixinbooter:10.7") {transitive = false}
 	annotationProcessor("zone.rong:mixinbooter:10.7") {transitive = false}
-	modImplementation "thelm.packagedauto:PackagedAuto-1.12.2:1.0.23.72"
-	modImplementation "thelm.packagingprovider:PackagingProvider-1.12.2:1.0.0.0"
+	modImplementation "thelm.packagedauto:PackagedAuto-1.12.2:1.0.24.73"
+	modImplementation "thelm.packagingprovider:PackagingProvider-1.12.2:1.0.0.2"
 	modImplementation "mezz.jei:jei_1.12.2:4.16.1.1013"
 	modImplementation("appeng:ae2-uel:v0.56.7") {transitive = false}
 	modImplementation "curse.maven:ae2-fluid-crafting-rework-623955:5751930"
