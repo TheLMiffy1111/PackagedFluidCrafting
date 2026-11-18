@@ -1,1 +1,1 @@
-Fix mixin plugin not filtering on mixin name  
+Persist amount in amount specification fields  

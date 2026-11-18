@@ -30,6 +30,7 @@ repositories {
 			}
 		}
 		filter {
+			includeGroup "net.mezzdev.config"
 			includeGroup "mezz.jei"
 			includeGroup "vazkii.patchouli"
 		}
@@ -47,7 +48,7 @@ repositories {
 	exclusiveContent {
 		forRepository {
 			maven {
-				url = "https://maven.thorfusion.com/artifactory/central/"
+				url = "https://maven.thorfusion.com/thorfusion/"
 			}
 		}
 		filter {
@@ -83,7 +84,7 @@ def specVersion = "1"
 def vendor = "thelm"
 
 group = "thelm.packagedfluidcrafting"
-version = "1.0.0.3"
+version = "1.0.0.4"
 
 def archivesName = "${modName}-${mcVersion}"
 base.archivesName = archivesName
@@ -130,12 +131,12 @@ dependencies {
 	// Dependencies
 	implementation("zone.rong:mixinbooter:10.7") {transitive = false}
 	annotationProcessor("zone.rong:mixinbooter:10.7") {transitive = false}
-	modImplementation "thelm.packagedauto:PackagedAuto-1.12.2:1.0.24.73"
+	modImplementation "thelm.packagedauto:PackagedAuto-1.12.2:1.0.24.74"
 	modImplementation "thelm.packagingprovider:PackagingProvider-1.12.2:1.0.0.2"
 	modImplementation "mezz.jei:jei_1.12.2:4.16.1.1013"
 	modImplementation("appeng:ae2-uel:v0.56.7") {transitive = false}
 	modImplementation "curse.maven:ae2-fluid-crafting-rework-623955:5751930"
-	modImplementation "mekanism:Mekanism-Community-Edition:1.12.2-9.12.11:ALL"
+	modImplementation "mekanism:Mekanism-Community-Edition:1.12.2-9.12.16:ALL"
 	modImplementation "curse.maven:mekanism-energistics-1027681:5775101"
 	modImplementation "vazkii.patchouli:Patchouli:1.0-23.6"
 

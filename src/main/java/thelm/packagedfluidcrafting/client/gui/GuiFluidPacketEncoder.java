@@ -65,6 +65,7 @@ public class GuiFluidPacketEncoder extends GuiContainerTileBase<ContainerFluidPa
 				try {
 					int amount = MathHelper.clamp(Integer.parseInt(amountField.getText()), 1, 1000000000);
 					if(amount != container.tile.requiredAmount) {
+						container.tile.requiredAmount = amount;
 						PacketHandler.INSTANCE.sendToServer(new PacketSetFluidAmount(amount));
 					}
 				}
